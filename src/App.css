@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  height: 100vh; /* Make the main container take the full height of the viewport */
+}
+
+.content {
+  flex-grow: 1; /* Allow content to take up remaining space */
+  overflow: auto; /* Add overflow to allow scrolling if content exceeds the height */
+  margin-left: 200px;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .sidebar {
+    display: none; /* Hide the sidebar on smaller screens */
+  }
+
+  .content {
+    margin-left: 0; /* Remove left margin to expand content to full width */
+    width: 100%; /* Make the content full width on smaller screens */
+  }
+}

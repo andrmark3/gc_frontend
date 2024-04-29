@@ -1,0 +1,48 @@
+.event-title {
+  text-align: center;
+}
+
+.event-container {
+  padding: 20px;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.event-list-item {
+  flex: 0 0 calc(90% - 10px);
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-list-item .MuiCard-root {
+  width: 100%;
+}
+
+.CardMedia {
+  height: 500px;
+}
+
+@media (max-width: 1000px) {
+  .CardMedia {
+    height: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .CardMedia {
+    height: 350px;
+  }
+}
+
+@media (max-width: 479px) {
+  .CardMedia {
+    height: 300px;
+  }
+}

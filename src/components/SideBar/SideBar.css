@@ -1,0 +1,49 @@
+/* Sidebar styles */
+.logo {
+  width: 160px;
+  padding-bottom: 50px;
+}
+
+.sidebar {
+  position: fixed;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 160px;
+  background-color: #323232;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+/* Adjust sidebar link styles as needed */
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar a:hover {
+  color: #eeeeee;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+
+  /* Sidebar styles */
+  .sidebar {
+    width: 100%;
+    background-color: #f0f0f0;
+  }
+
+}
