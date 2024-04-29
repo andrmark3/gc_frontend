@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+
+# Build files
+build/
+dist/
+*.zip
+
+# Environment variables
+.env
+
+# Cache and logs
+*.log
+npm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.iml
+
+# macOS files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# IDE settings
+*.idea/
+*.vscode/

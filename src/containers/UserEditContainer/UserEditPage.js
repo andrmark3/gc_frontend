@@ -69,18 +69,6 @@ const ProfilePage = () => {
   });
 
 
-  // const [userData, setUserData] = useState({ username: "", email: "", password: "" });
-
-  // let userDataFromSessionStorage = sessionStorage.getItem('userData');
-  // if (userData.username === '') {
-  //   let parsed_data = JSON.parse(userDataFromSessionStorage);
-  //   parsed_data.password = ''; // Add password key
-  //   delete parsed_data.token;
-  //   setUserData(JSON.stringify(parsed_data))
-  // }
-  // console.log(userDataFromSessionStorage)
-
-
   const handleSave = async () => {
     try {
       const response = await axiosInstance.put('/user_update/', userData);
